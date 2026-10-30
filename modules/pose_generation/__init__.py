@@ -1,1 +1,0 @@
-from modules.pose_generation.renderer import PoseGenerator
