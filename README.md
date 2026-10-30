@@ -1,3 +1,5 @@
+![CI](https://github.com/azzahzayn/recall-an-ar-based-facial-recognition-system-for-elderly/actions/workflows/ci.yml/badge.svg)  
+
 # Real-Time Facial Recognition System for People with Prosopagnosia
 
 ## 📌 About the Project
