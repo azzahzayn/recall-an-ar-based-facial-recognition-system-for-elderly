@@ -1,0 +1,9 @@
+numpy
+opencv-python
+mediapipe
+onnxruntime
+pyyaml
+pydantic
+scipy
+pytest
+pillow
