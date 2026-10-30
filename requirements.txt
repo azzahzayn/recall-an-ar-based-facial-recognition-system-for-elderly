@@ -7,3 +7,4 @@ pydantic
 scipy
 pytest
 pillow
+pytest
