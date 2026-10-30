@@ -1,13 +1,10 @@
 name: CI
 
-on:
-push:
-  pull_request:
+on: [push, pull_request]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
@@ -15,7 +12,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Install dependencies
         run: |
@@ -24,4 +21,4 @@ jobs:
           pip install pytest
 
       - name: Run tests
-        run: python -m pytest -v tests/ytest -v tests/
+        run: python -m pytest -v tests/
